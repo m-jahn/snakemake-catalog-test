@@ -11,4 +11,4 @@ To get started with a workflow from the catalog:
 3. Configure the workflow by editing the `config.yml` files as needed.
 4. Execute the workflow using Snakemake.
 
-For more detailed instructions, please refer to the individual documentation for each [workflow](workflows/example_wf.md).
+For more detailed instructions, please refer to the individual documentation for each [workflow](workflows/featured.mdx).
