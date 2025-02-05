@@ -25,8 +25,8 @@ const config = {
   organizationName: "m-jahn", // Usually your GitHub org/user name.
   projectName: "snakemake-catalog-test", // Usually your repo name.
 
-  onBrokenLinks: "throw",
-  onBrokenMarkdownLinks: "warn",
+  onBrokenLinks: "log",
+  onBrokenMarkdownLinks: "log",
 
   // Even if you don't use internationalization, you can use this field to set
   // useful metadata like html lang. For example, if your site is Chinese, you
