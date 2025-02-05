@@ -19,9 +19,11 @@
 }
 
 .buttons {
-  display: flex;
+  display: inline-block;
   align-items: center;
   justify-content: center;
+  margin-right: 20px;
+  border-color: #059669;
 }
 
 .horizontal_bar {
@@ -31,12 +33,16 @@
   margin-top: 0px;
 }
 
-[data-theme='light'] {
+[data-theme="light"] {
   .heroBanner {
     color: #059669;
     background: #e3ebe8;
-  };
+  }
   .horizontal_bar {
     background: linear-gradient(to right, #29d5b0, #e3ebe8, #29d5b0);
+  }
+  .buttons {
+    border: 2px solid #059669;
+    border-radius: 8px;
   }
 }

@@ -27,6 +27,14 @@ function HomepageHeader() {
             Read Introduction - 5min ⏱️
           </Link>
         </div>
+        <div className={styles.buttons}>
+          <Link
+            className="button button--secondary button--lg"
+            to="/docs/workflows/featured"
+          >
+            Explore workflows 🔭
+          </Link>
+        </div>
       </div>
     </header>
   );
