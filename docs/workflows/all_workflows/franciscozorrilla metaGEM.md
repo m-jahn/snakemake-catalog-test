@@ -2,7 +2,7 @@
 
 
   
-import Highlight from '@site/src/components/extras/Highlight';  
+import Highlight from '@site/src/components/Extras/Highlight';  
 
 # franciscozorrilla/metaGEM
   

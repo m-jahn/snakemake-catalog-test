@@ -1,0 +1,67 @@
+---
+sidebar_position: 1
+---
+
+import Link from "@docusaurus/Link"; 
+import styles from "@site/src/pages/index.module.css";
+import WfCard from "@site/src/components/Extras/WfCard";
+
+
+# Top workflows by stars
+
+<Columns>
+  <!-- COLUMN 1 -->
+  <Column className="text--left">
+    <WfCard
+      update="2025-01-01"
+      description="RNA-seq workflow using STAR and DESeq2."
+      >snakemake-workflows/rna-seq-star-deseq2</WfCard>
+    <div className={styles.spacing}></div>
+    <WfCard
+      update="2025-01-01"
+      description="A Snakemake workflow for the design of small guide RNAs (sgRNAs) for CRISPR applications."
+      >MPUSP/snakemake-crispr-guides</WfCard>
+    <div className={styles.spacing}></div>
+    <WfCard
+      update="2025-01-01"
+      description="Bacterial-Riboseq: A Snakemake workflow for the analysis of riboseq data in bacteria."
+      >MPUSP/snakemake-bacterial-riboseq</WfCard>
+    <div className={styles.spacing}></div>
+  </Column>
+  <!-- COLUMN 2 -->
+  <Column className="text--left">
+    <WfCard
+      update="2025-01-01"
+      description="An easy-to-use workflow for generating context specific genome-scale metabolic models and predicting metabolic interactions within microbial communities directly from metagenomic data."
+      >franciscozorrilla/metaGEM</WfCard>
+    <div className={styles.spacing}></div>
+    <WfCard
+      update="2025-01-01"
+      description="A Snakemake workflow and MrBiomics module for performing perturbation analyses of pooled (multimodal) CRISPR screens with sc/snRNA-seq read-out (scCRISPR-seq) powered by the R package Seurats method Mixscape."
+      >epigen/mixscape_seurat</WfCard>
+    <div className={styles.spacing}></div>
+    <WfCard
+      update="2025-01-01"
+      description="A snakemake workflow for benchmarking variant calling approaches with Genome in a Bottle (GIAB), CHM (syndip) or other custom datasets."
+      >snakemake-workflows/dna-seq-benchmark</WfCard>
+    <div className={styles.spacing}></div>
+  </Column>
+  <!-- COLUMN 3 -->
+  <Column className="text--left">
+    <WfCard
+      update="2025-01-01"
+      description="Make colorful identity heatmaps of genomic sequence."
+      >mrvollger/StainedGlass</WfCard>
+    <div className={styles.spacing}></div>
+    <WfCard
+      update="2025-01-01"
+      description="A Snakemake workflow for differential expression analysis of RNA-seq data with Kallisto and Sleuth."
+      >snakemake-workflows/rna-seq-kallisto-sleuth</WfCard>
+    <div className={styles.spacing}></div>
+    <WfCard
+      update="2025-01-01"
+      description="Snakemake workflow for the mapping and quantification of miRNAs and isomiRs from miRNA-Seq libraries."
+      >zavolanlab/mirflowz</WfCard>
+    <div className={styles.spacing}></div>
+  </Column>
+</Columns>

@@ -1,0 +1,8 @@
+{
+  "label": "All workflows",
+  "position": 4,
+  "link": {
+    "type": "generated-index",
+    "description": "A collection of all available 'standardized usage' workflows."
+  }
+}

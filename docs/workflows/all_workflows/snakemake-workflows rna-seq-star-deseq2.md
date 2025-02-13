@@ -2,7 +2,7 @@
 
 
   
-import Highlight from '@site/src/components/extras/Highlight';  
+import Highlight from '@site/src/components/Extras/Highlight';  
 
 # snakemake-workflows/rna-seq-star-deseq2
   
