@@ -33,6 +33,10 @@
   margin-top: 0px;
 }
 
+.spacing {
+  margin-bottom: 2rem;
+}
+
 [data-theme="light"] {
   .heroBanner {
     color: #059669;
