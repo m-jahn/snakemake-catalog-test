@@ -1,9 +1,13 @@
 import React, { CSSProperties } from "react"; // CSSProperties allows inline styling with better type checking.
 import clsx from "clsx"; // clsx helps manage conditional className names in a clean and concise manner.
+import BgColor from "@site/src/components/Extras/BgColor";
+import BgPalette from "@site/src/components/Extras/BgPalette";
+
 const CardHeader = ({
-  className, // classNamees for the container card
-  style, // Custom styles for the container card
-  children, // Content to be included within the card
+  className,
+  colors = BgPalette(),
+  style = { backgroundColor: BgColor(colors) },
+  children,
   textAlign,
   variant,
   italic = false,

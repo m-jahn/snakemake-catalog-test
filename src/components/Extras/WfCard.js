@@ -15,7 +15,7 @@ export default function WfCard({
 }) {
   return (
     <Card shadow="tl">
-      <CardHeader style={{ color: "#FFFFFF", backgroundColor: "#349299" }}>
+      <CardHeader>
         <div className="avatar avatar--vertical">
           <img className="avatar__photo avatar__photo--xl" src={url_avatar} />
           <div className="avatar__intro">
