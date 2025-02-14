@@ -113,16 +113,12 @@ const config = {
             title: "Community",
             items: [
               {
-                label: "Stack Overflow",
-                href: "https://stackoverflow.com/questions/tagged/docusaurus",
+                label: "Snakemake Github",
+                href: "https://github.com/snakemake/snakemake-workflow-catalog",
               },
               {
-                label: "Discord",
-                href: "https://discordapp.com/invite/docusaurus",
-              },
-              {
-                label: "X",
-                href: "https://x.com/docusaurus",
+                label: "Snakemake Discord",
+                href: "https://discord.gg/gas4cAW",
               },
             ],
           },
@@ -134,13 +130,13 @@ const config = {
                 to: "/blog",
               },
               {
-                label: "GitHub",
+                label: "Docusaurus",
                 href: "https://github.com/facebook/docusaurus",
               },
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+        copyright: `Copyright © ${new Date().getFullYear()} Snakemake Community.`,
       },
       prism: {
         theme: prismThemes.github,
